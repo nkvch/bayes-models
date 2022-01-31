@@ -116,7 +116,7 @@ def main():
 
     generator.print_prob_table()
 
-    samples = generator.generate_samples(10)
+    samples = generator.generate_samples(100000)
     generator.compare_samples_with_probs(samples)
 
 
